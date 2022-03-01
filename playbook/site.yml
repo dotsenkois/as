@@ -1,15 +1,4 @@
 ---
-# - name: Install GPG key
-#   hosts: all
-#   tasks:
-#     - name: "Install elasticsearch rpm key"
-#       become: true
-#       rpm_key: 
-#       state: present
-#       key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
-
-
-
 - name: Install Elasticsearch
   hosts: elasticsearch
   handlers:
@@ -63,12 +52,6 @@
         dest: "/tmp/kibana-{{kibana_version}}-x86_64.rpm"
       register: download_kibana
       until: download_kibana is succeeded
-    # - name: "Install kibana rpm key"
-    #   become: true
-    #   rpm_key: 
-    #     state: present
-    #     key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
-
     - name: Install kibana
       become: true
       yum:
@@ -80,7 +63,6 @@
         src: kibana.yml.j2
         dest: /etc/kibana/kibana.yml
       notify: restart kibana
-
 - name: Install filebeat
   hosts: app
   handlers:
@@ -101,12 +83,6 @@
         dest: "/tmp/filebeat-{{ filebeat_version }}-x86_64.rpm"
       register: download_filebeat
       until: download_filebeat is succeeded
-    # - name: "Install filebeat rpm key"
-    #   become: true
-    #   rpm_key: 
-    #     state: present
-    #     key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
-
     - name: Install filebeat
       become: true
       yum:
