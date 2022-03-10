@@ -16,7 +16,7 @@
 
     - name: "Download Elasticsearch's rpm"
       get_url:
-        url: "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-{{ elasticsearch_version }}-x86_64.rpm"
+        url: "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-x86_64.rpm"
         dest: "/tmp/elasticsearch-{{ elasticsearch_version }}-x86_64.rpm"
       register: download_elastic
       until: download_elastic is succeeded
