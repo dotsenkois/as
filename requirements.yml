@@ -5,13 +5,13 @@
     name: elastic 
   - src: https://github.com/dotsenkois/kibana-role.git
     scm: git
-    version: "1.0.0"
+    version: "1.0.1"
     name: kibana 
   - src: https://github.com/dotsenkois/filebeat-role.git
     scm: git
-    version: "1.0.0"
+    version: "1.0.1"
     name: filebeat 
   - src: https://github.com/dotsenkois/logstash-role.git
     scm: git
-    version: "1.0.0"
+    version: "1.0.1"
     name: logstash 
