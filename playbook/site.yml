@@ -10,4 +10,4 @@
     - filebeat-role
 - hosts: kibana
   roles:
-    - kibana-role
+    - kibana-role 
