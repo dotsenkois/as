@@ -2,3 +2,12 @@
 - hosts: elasticsearch
   roles:
     - /tmp/repos/roles/elastic
+# - hosts: logstash
+#   roles:
+#     - https://github.com/dotsenkois/logstash-role
+- hosts: app
+  roles:
+    - filebeat-role
+- hosts: kibana
+  roles:
+    - kibana-role
