@@ -1,0 +1,2 @@
+roles/elastic/molecule/default/files/elasticsearch-7.14.0-amd64.deb
+roles/elastic/molecule/default/files/elasticsearch-7.14.0-x86_64.rpm
