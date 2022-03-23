@@ -9,7 +9,7 @@
     name: kibana 
   - src: https://github.com/dotsenkois/filebeat-role.git
     scm: git
-    version: "1.0.1"
+    version: "1.0.2"
     name: filebeat 
   - src: https://github.com/dotsenkois/logstash-role.git
     scm: git
