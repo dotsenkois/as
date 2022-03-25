@@ -3,15 +3,15 @@
     scm: git
     version: "2.1.4"
     name: elastic 
-  - src: https://github.com/dotsenkois/kibana-role.git
+  - src: https://github.com/dotsenkois/kibana_role.git
     scm: git
-    version: "1.0.1"
-    name: kibana 
-  - src: https://github.com/dotsenkois/filebeat-role.git
+    version: "latest"
+    name: kibana_role 
+  - src: https://github.com/dotsenkois/filebeat_role.git
     scm: git
-    version: "1.0.2"
-    name: filebeat 
-  - src: https://github.com/dotsenkois/logstash-role.git
+    version: "latest"
+    name: filebeat_role 
+  - src: https://github.com/dotsenkois/logstash_role.git
     scm: git
-    version: "1.0.2"
-    name: logstash 
+    version: "latest"
+    name: logstash_role 

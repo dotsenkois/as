@@ -1,7 +1,7 @@
 ---
 - hosts: elasticsearch
   roles:
-    - /tmp/repos/roles/elastic
+    - elastic
 - hosts: logstash
   roles:
     - logstash
