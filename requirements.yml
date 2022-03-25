@@ -1,17 +1,17 @@
 ---
   - src: https://github.com/dotsenkois/elastic_role.git
     scm: git
-    version: "2.1.4"
+    # version: "latest"
     name: elastic 
   - src: https://github.com/dotsenkois/kibana_role.git
     scm: git
-    version: "latest"
+    # version: "latest"
     name: kibana_role 
   - src: https://github.com/dotsenkois/filebeat_role.git
     scm: git
-    version: "latest"
+    # version: "latest"
     name: filebeat_role 
   - src: https://github.com/dotsenkois/logstash_role.git
     scm: git
-    version: "latest"
+    # version: "latest"
     name: logstash_role 
