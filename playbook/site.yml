@@ -2,12 +2,12 @@
 - hosts: elasticsearch
   roles:
     - elastic
-- hosts: logstash
-  roles:
-    - logstash_role
 - hosts: kibana
   roles:
     - kibana_role
+- hosts: logstash
+  roles:
+    - logstash_role
 - hosts: all
   roles:
     - filebeat_role
