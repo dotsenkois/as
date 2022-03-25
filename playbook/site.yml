@@ -1,13 +1,13 @@
 ---
 - hosts: elasticsearch
   roles:
-    - elastic
+    - /home/dotsenkois/repo/as/roles/elastic
 - hosts: logstash
   roles:
-    - logstash
+    - /home/dotsenkois/repo/ansible-roles/logstash_role
 - hosts: app
   roles:
-    - filebeat
+    - /home/dotsenkois/repo/ansible-roles/filebeat_role
 - hosts: kibana
   roles:
-    - kibana
+    - /home/dotsenkois/repo/ansible-roles/kibana_role

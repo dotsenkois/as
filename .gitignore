@@ -1,3 +1,8 @@
 roles/elastic/molecule/default/files/elasticsearch-7.14.0-amd64.deb
 roles/elastic/molecule/default/files/elasticsearch-7.14.0-x86_64.rpm
 requirements.yml
+playbook/files/elasticsearch-8.1.1-amd64.deb
+playbook/files/filebeat-8.1.0-amd64.deb
+playbook/files/logstash-8.1.1-amd64.deb
+playbook/files/kibana-8.1.1-amd64.deb
+playbook/files/metricbeat-8.1.1-amd64.deb
