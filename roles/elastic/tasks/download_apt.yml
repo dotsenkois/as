@@ -1,5 +1,5 @@
 ---
-- name: "Check that deb is exists"
+- name: "Check that elastick's deb is exists"
   stat:
     path: "files/elasticsearch-{{ elasticsearch_version }}-amd64.deb"
   register: stat_result
