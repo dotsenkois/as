@@ -12,3 +12,4 @@ playbook/files/kibana-8.1.1-x86_64.rpm
 playbook/files/metricbeat-8.1.1-x86_64.rpm
 playbook/files/logstash-8.1.1-x86_64.rpm
 playbook/files/packages_list.txt
+.gitignore

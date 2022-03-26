@@ -8,6 +8,6 @@
 - hosts: logstash
   roles:
     - logstash_role
-- hosts: all
+- hosts: app
   roles:
     - filebeat_role
