@@ -6,3 +6,9 @@ playbook/files/filebeat-8.1.0-amd64.deb
 playbook/files/logstash-8.1.1-amd64.deb
 playbook/files/kibana-8.1.1-amd64.deb
 playbook/files/metricbeat-8.1.1-amd64.deb
+playbook/files/elasticsearch-8.1.1-x86_64.rpm
+playbook/files/filebeat-8.1.1-x86_64.rpm
+playbook/files/kibana-8.1.1-x86_64.rpm
+playbook/files/metricbeat-8.1.1-x86_64.rpm
+playbook/files/logstash-8.1.1-x86_64.rpm
+playbook/files/packages_list.txt
