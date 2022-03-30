@@ -15,3 +15,7 @@
     scm: git
     # version: "latest"
     name: logstash_role 
+  - src: https://github.com/dotsenkois/my_own_collection.git
+    scm: git
+    # version: "latest"
+    name: logstash_role 
